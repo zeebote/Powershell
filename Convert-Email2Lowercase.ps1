@@ -1,7 +1,6 @@
 # Powershell script to change email to lower case in AD account mail field
-# This script require MS exchange powershell module and AD module
+# This script require MS AD powershell module
 # Import AD and Exchange Powershell module
-add-pssnapin Microsoft.Exchange.Management.PowerShell.E2010
 import-module activedirectory
 # Setup log file name
 $timer = (Get-Date -Format yyy-mm-dd-hhmm)
